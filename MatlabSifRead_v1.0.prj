@@ -1,0 +1,79 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2348409562" file="G:\Group_Work\Program\MatlabSIFReaderv1.0\MatlabSifRead_v1.0.prj" location="G:\Group_Work\Program\MatlabSIFReaderv1.0" name="MatlabSifRead_v1.0" target="target.mlapps" target-name="App 打包">
+    <param.appname>MatlabSifRead_v1.0</param.appname>
+    <param.authnamewatermark>wyatt</param.authnamewatermark>
+    <param.email>1136883696@qq.com</param.email>
+    <param.company>ECNU</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description>使用matlab画sif文件</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms>
+      <item>win64</item>
+      <item>win32</item>
+    </param.platforms>
+    <param.output>G:\</param.output>
+    <param.guid>442bb3be-a5b2-4aa1-a43b-bd0d227b69ba</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Matlab_sif_readUI.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\@Matlab_sif_readUI_1\Matlab_sif_readUI_1.m</file>
+      <file>${PROJECT_ROOT}\Matlab_sif_read.m</file>
+      <file>${PROJECT_ROOT}\MatlabUI_sif_file_list_read.m</file>
+      <file>${PROJECT_ROOT}\MatlabUI_sif_show.m</file>
+      <file>${PROJECT_ROOT}\read_sif.m</file>
+      <file>${PROJECT_ROOT}\ShowMessage.mlapp</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\atsifio</file>
+      <file>${PROJECT_ROOT}\ATSIFIO.dll</file>
+      <file>${PROJECT_ROOT}\ATSIFIO64.dll</file>
+      <file>${PROJECT_ROOT}\atspooler.dll</file>
+      <file>${PROJECT_ROOT}\GetAndorSifProperty.dll</file>
+      <file>${PROJECT_ROOT}\GetAndorSifSize.dll</file>
+      <file>${PROJECT_ROOT}\icon</file>
+      <file>${PROJECT_ROOT}\images</file>
+      <file>${PROJECT_ROOT}\Si_1200.sif</file>
+      <file>${PROJECT_ROOT}\Si_300.sif</file>
+      <file>${PROJECT_ROOT}\spectrum.sif</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables />
+    <workflow />
+    <matlab>
+      <root>E:\Program Files\MATLAB\R2018a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
